@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>websiteQ</title>
+    <script src="ini.js"></script>
+    <link rel="stylesheet" href="gaya tia.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat&family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="menuKiri">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="search.html">Search Us</a></li>
+            <li><a href="review.html">Review</a></li>
+            <li><a href="contact.html">Contact Person</a></li>
+          </ul>
+        </div>
+        <div class="judulKanan">
+          <h1 class="judul">Boutique Ctoy</h1>
+        </div>
+      </div>
+      <div class="hero"></div>
+      <div class="content cf">
+        <div class="main">
+          <h2>Produk Terbaru</h2>
+          <section class="product" data-kategori="atasan" data-search="atasan">
+            <a href="product1.html"
+              ><img src="produk 1 tiak.jpg" alt="Produk 1"
+            /></a>
+            <h3>Kemeja Wanita</h3>
+            <p>detail produk</p>
+            <p class="price">Harga: Rp. 150.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Kemeja Wanita','Rp. 150.000','produk kualitas premium,bahan yang tidak panas jika digunakan untuk kegiatan sehari-hari','produk 1 tiak.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Kemeja Wanita', 150000)"
+            >
+              Keranjang
+            </button>
+            <br />
+          </section>
+
+          <section class="product" data-kategori="atasan">
+            <a href="product2.html">
+              <img src="produk 2 tiak.jpg" alt="Produk 2" />
+            </a>
+            <h3>Blouse Women</h3>
+            <p>detail produk.</p>
+            <p class="price">Harga: Rp. 85.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Blouse Women','Rp. 85.000','Kualitas bahan yang sudah terjamin, bahan halus, tidak mudah menyerap keringat, dan cocok untuk digunakan sehari hari.','produk 2 tiak.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Blouse Women', 85000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product" data-kategori="atasan">
+            <a href="product3.html"
+              ><img src="produk 3 tiak.jpg" alt="Produk 3"
+            /></a>
+            <h3>Outer Women</h3>
+            <p>detail produk.</p>
+            <p class="price">Harga: Rp. 120.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Outer Women','Rp. 120.000','Bahan moscrepewolfin,Tergntung stok dkirim dr konveksinya, Ukuran All Size fit To L','produk 3 tiak.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Outer Women', 120000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product" data-kategori="atasan">
+            <a href="product4.html"
+              ><img src="produk 4 tiak.jpg" alt="Produk 4"
+            /></a>
+            <h3>Dress Gamis</h3>
+            <p>detail produk.</p>
+            <p class="price">Harga: Rp. 200.000</p>
+            <button class="tombol-beli" onclick="tampilkanDetailProduk('Dress Gamis','Rp. 200.000','Gamis remaja dewasa kekinian korean style, kalo dipakai bisa terlihat aduhayy','produk 4 tiak.jpg')"
+            >Detail</Details></button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Dress Gamis', 200000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product" data-kategori="bawahan">
+            <a href="product5.html"
+              ><img src="produk 5 tiak.jpg" alt="Produk 5"
+            /></a>
+            <h3>Celana Jeans Wanita</h3>
+            <p>detail produk</p>
+            <p class="price">Harga: Rp. 175.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Celana Jeans Wanita','Rp. 175.000','jeans premium dengan bahan jeans denim import yang tebal dan lembut bukan jeans yang abal abal dan tipis,hadir dengan varian dua warna yang keren keren dan mantap, tidak ada lipatan paten di ujung celana hanya option stile','produk 5 tiak.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Celana Jeans Wanita', 175000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product" data-kategori="bawahan">
+            <a href="product6.html"
+              ><img src="produk 6 tiak.jpg" alt="Produk 6"
+            /></a>
+            <h3>Celana Kulot Wanita</h3>
+            <p>detail produk</p>
+            <p class="price">Harga: Rp. 95.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Celana Kulot Wanita','Rp. 95.000','celana kulot pemakaian elegan,bahan hayget premium','produk 6 tiak.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Celana Kulot Wanita', 95000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product" data-kategori="bawahan">
+            <a href="product7.html"
+              ><img src="produk 7 tiak.jpg" alt="Produk 7"
+            /></a>
+            <h3>Rok Linen Korea</h3>
+            <p>detail produk</p>
+            <p class="price">Harga: Rp. 80.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Rok Linen Korea','Rp. 80.000','Rok Remaja kekinian dengan bahan selembut sutra, dan menggunakan bahan Linen, cocok untuk kegiatan sehari-hari anda.','produk 7 tiak.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Rok Linen Korea', 80000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product" data-kategori="bawahan">
+            <a href="product8.html"
+              ><img src="produk 8 tiak.jpg" alt="Produk 8"
+            /></a>
+            <h3>Rok Panjang Wanita</h3>
+            <p>detail produk</p>
+            <p class="price">Harga: Rp. 225.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Rok Panjang Wanita','Rp. 225.000','Jahitan yang rapih, bahan kualitas imprt tinggi, diproduksi dengan sefariatif mungkin dan memiliki 2 ukuran yaitu All size dan Bid size.','produk 8 tiak.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Rok Panjang Wanita', 225000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+        </div>
+        <div class="sidebar">
+          <h3>Kategori</h3>
+          <div class="Kategori-pilihan">
+            <input
+              type="text"
+              id="cariBarang"
+              placeholder="Cari Barang"
+              onkeyup="cariBarang ()"
+            />
+            <button onclick="filterKategori('atasan')">atasan</button><br />
+            <button onclick="filterKategori('bawahan')">bawahan</button><br />
+          </div>
+          <br />
+          <br />
+          <div class="keranjang">
+            <h3>Keranjang Belanja</h3>
+            <ul id="daftar-keranjang"></ul>
+            <p>Total Belanja : <span id="total-belanja">Rp. 0.00</span></p>
+            <button id="checkout" onclick="checkout()">Checkout</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p class="copyright">Copyright 2023. Boutique Ctoy</p>
+      </div>
+    </div>
+  </body>
+</html>
